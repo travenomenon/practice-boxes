@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  var beverage = parseInt($("#beverage").val());
+  var beverage = $("#beverage").val();
+  console.log(beverage);
   })
+
+  var flavor = $("input:radio[name=flavor]:checked").val();
